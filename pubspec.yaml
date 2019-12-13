@@ -1,0 +1,52 @@
+name: groto_shop
+description: The Groto Shop Application
+
+version: 1.0.1
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_settings:
+  connectivity:
+  cupertino_icons:
+  firebase_auth:
+  firebase_storage:
+  cloud_firestore:
+  google_sign_in:
+  provider:
+  cached_network_image:
+#  camera:
+  path_provider:
+  path:
+  google_maps_flutter:
+  image:
+  url_launcher:
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.3
+  flutter_test:
+    sdk: flutter
+  test: ^1.0.0
+  mockito: 4.1.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  assets:
+    - assets/
+  fonts:
+    - family: NotoSerif
+      fonts:
+        - asset: fonts/NotoSerif-Bold.ttf
+          weight: 200
+        - asset: fonts/NotoSerif-BoldItalic.ttf
+        - asset: fonts/NotoSerif-Regular.ttf
+        - asset: fonts/NotoSerif-RegularItalic.ttf
+  uses-material-design: true
